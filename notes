@@ -1,0 +1,13 @@
+OEUVRES(id0, titre, anne, desc, est_film, est_livre)
+FILMS(#idO, duree, langue)
+LIVRES(#idO, nb_page, edition, annee)
+SERIES(#idO, nb_saison, duree_moyenne)
+SPECTACLE(#idO, nom, adresse, duree)
+CATEGORIES(idC,nomC)
+APPARTIENT_CAT(#idO,#idC)
+
+UTILISATEURS(idU, nom, prenom, email)
+STATUT(#idU,#idO, statut)
+EVAL(,idE, #idU, #idO, note, com)
+CONTRIBUTEUR(idContributeur,nom, prenom,naissance)
+CONTRIBUE(#idContributeur,#idO,role)
