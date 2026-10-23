@@ -1,4 +1,4 @@
-OEUVRES(<u>id0</u>, titre, anne, desc, est_film, est_livre)
+OEUVRES(<ins>id0</ins>, titre, anne, desc, est_film, est_livre)
 
 FILMS(<u>#idO</u>, duree, langue)
 LIVRES(<u>#idO</u>, nb_page, edition, annee)
