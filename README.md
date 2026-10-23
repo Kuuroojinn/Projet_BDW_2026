@@ -2,7 +2,7 @@
 
 Premiere idée de schéma relationnel :
 
-OEUVRES(<ins>id0</ins>, titre, anne, desc, est_film, est_livre)
+OEUVRES(<ins>id0</ins>, titre, anne, desc)
 
 FILMS(<ins>#idO</ins>, duree, langue)
 
@@ -25,3 +25,5 @@ EVAL(<ins>idE</ins>, #idU, #idO, note, com)
 CONTRIBUTEUR(<ins>idContributeur</ins>,nom, prenom,naissance)
 
 CONTRIBUE(<ins>#idContributeur,#idO,role</ins>)
+
+/!\ Essayer de trouver un moyen de determiner si une oeuvre est un film/serie, etc...
