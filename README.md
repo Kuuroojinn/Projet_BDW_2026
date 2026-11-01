@@ -27,3 +27,6 @@ CONTRIBUTEUR(<ins>idContributeur</ins>,nom, prenom,naissance)
 CONTRIBUE(<ins>#idContributeur,#idO,role</ins>)
 
 /!\ Essayer de trouver un moyen de determiner si une oeuvre est un film/serie, etc...
+
+
+Added sql code needed to create the db, with some insertions tests
